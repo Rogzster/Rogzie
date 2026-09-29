@@ -164,8 +164,7 @@ Button{
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
-  /*custom font*/
-  @font-face {
+@font-face {
   font-family: 'sm64';
   src: url('fonts/SuperMario256.ttf') format('truetype');
 }
