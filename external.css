@@ -3,7 +3,7 @@ body {
   color: rgb(255, 255, 255);
   text-align: center;
   border: 2px solid rgb(255, 255, 255);
-  font-family: 'SM64';
+  font-family: 'sm64';
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   background-repeat: no-repeat;
@@ -166,8 +166,8 @@ Button{
   }
   /*custom font*/
   @font-face {
-  font-family: 'SM64';
-  src: url('../fonts/SuperMario256.ttf') format('tff');
+  font-family: 'sm64';
+  src: url('../fonts/SuperMario256.ttf') format('truetype');
 }
 
 .container {
