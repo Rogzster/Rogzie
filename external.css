@@ -1,0 +1,211 @@
+/* Body */
+body {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  font-family: 'SM64';
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  header > img {
+    width: auto;
+    height: 140px;
+    border: 0px;
+  }
+
+  h1{
+    font-size:35px;
+    margin-top: 15px;
+  }
+
+  p{
+    font-size: 25px;
+    align-items:normal
+  }
+
+  hr{
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+  }
+
+  img{
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    transition: .35s ease
+  }
+
+  img:hover{
+    transform: translateY(-5px);
+  }
+
+   table{
+    justify-content: center;
+    align-items:center;
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(215, 0, 151), rgb(174, 0, 0));
+    
+   }
+
+   th{
+    border: 2px solid rgb(0, 0 ,0);
+    margin: 40px;
+   }
+   td{
+    border: 2px solid rgb(0, 0 ,0);
+   }
+  /* Navigation Bar */
+Nav{
+  background-color: rgba(0, 19, 97, 0);
+  padding: 8px 15px;
+  border-radius: 40px;
+  box-shadow: 0 15px 35px rgba(170, 10, 10, 0);
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+}
+
+  Nav ul{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  Nav a{
+    position: relative;
+    list-style: none;
+    padding: 8px;
+    transition: .35s ease;
+    overflow: hidden;
+    display: block;
+  }
+
+  Nav a:hover{
+    transform: translateY(-5px)
+  }
+
+  li a{
+    color:azure;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: azure;
+  }
+
+  Nav > Ul > li > a > img{
+    border: 0px;
+    height: 25px;
+    width: auto; 
+    display:inline-flex;
+    padding: 1px;
+    margin: 1px;
+  }
+/*Tooltip and Art Board*/
+Button{
+  font-variant-caps: small-caps;
+  width: 50px;
+  cursor:pointer;
+}
+
+  Input{
+    font-variant-caps: small-caps; 
+    cursor:pointer;
+  }
+
+  #board {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    cursor:crosshair;
+    margin-bottom: 15px;
+  }
+
+  #toolbar {
+    margin-bottom: 10px;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .tooltiptext {
+    visibility: hidden; /* Hidden by default */
+    width: 130px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*custom font*/
+  @font-face {
+  font-family: 'SM64';
+  src: url('../fonts/SuperMario256.ttf');
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  padding: 5px;
+}
+.container div {
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+  font-size:35px;
+  margin-left: 300px;
+}
+.container div.menu {
+  grid-area: menu;
+  margin-top: -75px;
+}
+.container div.content {
+  grid-area: content;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: -60px;
+  font-size: 20px;
+}
+.container div.menu img{
+    height: 300px;
+    width:auto;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="keywords" content="All my art work">
+        <meta name="description" content="About Art">
+        <meta name="author" content="Rogzie / Adrian">
+        <link rel="icon" type="image/x-icon" href="Images/ART.png"/>
+        <title>Art</title>
+        <link rel="stylesheet" href="external.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: linear-gradient(to bottom, #824800 ,#fa0c00);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="Images/Art-Header.png" style="border: 0px;" width="350px">
+        </header>
+   
+        <nav>
+            <ul>
+                <li><a href="Index.html"><img src="Images/HOME-Button.png"></a></li>
+                <li><a href="Math.html"><Img src="Images/Math-Button.png"></a></li>
+                <li><a href="English.html"><img src="Images/ENGLISH-Button.png"></a></li>
+                <li><a href="Health.html"><img src="Images/HEALTH-Button.PNG"></a></li>
+                <li><a href="Computer-Science.html"><img src="Images/ECS-Button.png"></a></li>
+                <li><a href="Spanish.html"><img src="Images/SPANISH-Button.png"></a></li>
+            </ul>
+        </nav>
+        <br/>
+        <br/>
+        <div id="toolbar">
+            <input type="color" id="colorPicker" value="#000000">
+            <div class="tooltip">
+                <input type="Range" id="brushSize" min="1" max="50" value="5">
+            <span class="tooltiptext">Brush Size</span>
+            </div>
+            <button id="clearButton">clear</button>
+            <button id="saveButton">save</button>
+            <button id="fillButton">fill</button>    
+        </div>
+        <canvas id="board" width="700" height="350"></canvas>
+        <script src="JS/art.js"></script>
+        <hr/>
+        <div class="container">
+            <div class="header"><h2>Collaborative Art Grid</h2></div>
+            <div class="menu"><img src="Images/blue-grid.jpg"height="350"></div>
+            <div class="content">For this assignment, I worked with the people doing the surrounding pieces of mine, which my piece was number one,
+            in the top left corner. I worked with number 2, James. We drew the snake and mountains while cross referencing each other
+            for scale.</div>
+            <div class="footer"> This is the full collabrative piece</div>
+        </div>
+        <hr/>
+        <div class="container">
+            <div class="header"><h2>My Art Grid</h2></div>
+            <div class="menu"><img src="Images/grid.jpg"height="350"></div>
+            <div class="content">This is my part of the collabrative art grid. My number grid was number 1 and I drew the top half of the cliff,
+            along with a snake wrapping around a tree branch, and the hills in the background.</div>
+            <div class="footer">I went through many markers while making this.</div>
+        </div>
+        <hr/>
+        <div class="container">
+            <div class="header"><h2>My Self Album Cover</h2></div>
+            <div class="menu"><img src="Images/715.jpg"height="350"></div>
+            <div class="content">I tried to display a lost of autonomy in this art piece, it references deltarune and more specifically,
+            Kris Dreemur, who is one of the 3 protagonist. They are possessed by the player after losing their original soul. They are forced
+            into making decisions constantly even when their own body doesn't. That's why the title is soul and body to show the divide. It's
+            implied that they lose an arm later on which is why one of the hands are smaller and colored differently. 
+            </div>
+            <div class="footer"><p style="margin-top: 30px; font-size: 20px;">I made this in one day.</p></div>
+        </div>
+    </body>
+</html>
