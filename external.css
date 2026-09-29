@@ -1,4 +1,9 @@
 /* Body */
+@font-face {
+  font-family: 'sm64';
+  src: url('fonts/SuperMario256.ttf') format('truetype');
+}
+
 body {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -167,10 +172,6 @@ Button{
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
-@font-face {
-  font-family: 'sm64';
-  src: url('fonts/SuperMario256.ttf') format('truetype');
-}
 
 .container {
   display: grid;
